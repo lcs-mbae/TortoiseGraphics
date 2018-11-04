@@ -13,17 +13,24 @@ PlaygroundPage.current.liveView = canvas
 
 canvas.drawing { turtle in
     
+
+    turtle.uppercaseM()
     
-   turtle.uppercaseM()
-
     turtle.lowercaseI()
-
+    
     turtle.lowercaseN()
-
+    
     turtle.lowercaseA()
     
-    //lowercaseH
+    turtle.lowercaseH()
     
+    turtle.setupforlastname()
+    
+    turtle.uppercaseB()
+    
+    turtle.lowercaseA()
+    
+   turtle.lowercaseE()
     
     
     

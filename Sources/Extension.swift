@@ -120,6 +120,7 @@ public extension Tortoise {
     }
 
     func lowercaseA() {
+        self.setHeading(-20)
         self.right(30)
         self.forward(15)
         self.curve(withsides: 10, withsize: 10, drawsides: 10)
@@ -127,5 +128,58 @@ public extension Tortoise {
         self.left(40)
         self.forward(15)
         self.curve(withsides: -10, withsize: 5, drawsides: 5)
+
+    }
+
+    func lowercaseH() {
+        self.right(40)
+        self.forward(70)
+        self.curve(withsides: -10, withsize: 5, drawsides: 5)
+        self.left(15)
+        self.forward(90)
+        self.penUp()
+        self.right(180)
+        self.forward(30)
+        self.penDown()
+        self.right(20)
+        self.curve(withsides: 10, withsize: 7, drawsides: 5)
+        self.left(20)
+        self.forward(20)
+        self.curve(withsides: -10, withsize: 5, drawsides: 4)
+
+    }
+    func setupforlastname() {
+        self.setHeading(40)
+        self.left(150)
+        self.penUp()
+        self.forward(100)
+
+    }
+    func uppercaseB() {
+        self.penDown()
+        self.left(60)
+        self.forward(80)
+        self.left(180)
+        self.penUp()
+        self.forward(70)
+        self.right(30)
+        self.curve(withsides: 10, withsize: 12, drawsides: 8)
+        self.left(240)
+        self.curve(withsides: 10, withsize: 15, drawsides: 8)
+        self.right(90)
+        self.curve(withsides: -10, withsize: 15, drawsides: 2)
+        self.penUp()
+        self.right(90)
+        self.forward(20)
+        self.left(70)
+        self.penDown()
+    }
+    func lowercaseE() {
+        self.setHeading(356)
+        self.right(90)
+        self.curve(withsides: 1, withsize: 5, drawsides: 3)
+        self.curve(withsides: -10, withsize: 7, drawsides: 6)
+        self.curve(withsides: -10, withsize: 15, drawsides: 5)
+
     }
 }
