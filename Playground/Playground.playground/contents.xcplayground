@@ -9,5 +9,6 @@
         <page name='Starter code'/>
         <page name='Trapezoid'/>
         <page name='Draw my name'/>
+        <page name='line art'/>
     </pages>
 </playground>

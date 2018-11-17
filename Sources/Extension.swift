@@ -37,38 +37,31 @@ public extension Tortoise {
         }
 
     }
-    func uppercaseM() {
+    func uppercaseM(scaleFactor scale: Double = 1.0) {
 
-        //set up
-        self.penUp()
-        self.setHeading(270)
-        self.forward(200)
-        self.setHeading(0)
-
-        self.penDown()
         self.right(10)
         //little curve
-        self.curve(withsides: 10, withsize: 5, drawsides: 5)
+        self.curve(withsides: 10, withsize: 5 * scale, drawsides: 5)
         //move down
-        self.forward(80)
+        self.forward(80 * scale)
         self.left(180)
         self.penUp()
-        self.forward(60)
+        self.forward(60 * scale)
         self.penDown()
         //little curve
-        self.curve(withsides: 10, withsize: 8, drawsides: 5)
+        self.curve(withsides: 10, withsize: 8 * scale, drawsides: 5)
         //move down
-        self.forward(65)
+        self.forward(65 * scale)
         self.right(180)
         self.penUp()
-        self.curve(withsides: 1, withsize: 8, drawsides: 7)
+        self.curve(withsides: 1, withsize: 8 * scale, drawsides: 7)
         self.penDown()
         //little curve
-        self.curve(withsides: 10, withsize: 8, drawsides: 5)
+        self.curve(withsides: 10, withsize: 8 * scale, drawsides: 5)
         //move down
-        self.forward(60)
+        self.forward(60 * scale)
         self.left(50)
-        self.curve(withsides: -10, withsize: 6, drawsides: 4)
+        self.curve(withsides: -10, withsize: 6 * scale, drawsides: 4)
         print(self.heading)
         self.setHeading(90)
 
@@ -182,4 +175,14 @@ public extension Tortoise {
         self.curve(withsides: -10, withsize: 15, drawsides: 5)
 
     }
+    func triangle (withSize size: Double) {
+        self.penDown()
+        self.right(30)
+        self.forward(size)
+        self.right(120)
+        self.forward(size)
+        self.right(120)
+        self.forward(size)
+    }
+
 }

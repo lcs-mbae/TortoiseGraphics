@@ -14,23 +14,36 @@ PlaygroundPage.current.liveView = canvas
 canvas.drawing { turtle in
     
 
-    turtle.uppercaseM()
+    // setup for drawing signaure
+    //set up
+    turtle.penUp()
+    turtle.setHeading(270)
+    turtle.forward(200)
+    turtle.setHeading(0)
     
-    turtle.lowercaseI()
+    turtle.penDown()
     
-    turtle.lowercaseN()
-    
-    turtle.lowercaseA()
-    
-    turtle.lowercaseH()
-    
-    turtle.setupforlastname()
-    
-    turtle.uppercaseB()
-    
-    turtle.lowercaseA()
-    
-   turtle.lowercaseE()
+    turtle.uppercaseM(scaleFactor: 1.0)
+    turtle.uppercaseM(scaleFactor: 1.5)
+    turtle.uppercaseM(scaleFactor: 2.0)
+    turtle.uppercaseM(scaleFactor: 2.5)
+    turtle.uppercaseM(scaleFactor: 3.0)
+
+//    turtle.lowercaseI()
+//
+//    turtle.lowercaseN()
+//
+//    turtle.lowercaseA()
+//
+//    turtle.lowercaseH()
+//
+//    turtle.setupforlastname()
+//
+//    turtle.uppercaseB()
+//
+//    turtle.lowercaseA()
+//
+//   turtle.lowercaseE()
     
     
     
