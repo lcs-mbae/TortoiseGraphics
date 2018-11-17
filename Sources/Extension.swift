@@ -17,13 +17,13 @@ public extension Tortoise {
     func trapezoid() {
         self.penDown()
         self.right(30)
-        self.forward(60)
+        self.forward(40)
         self.right(60)
-        self.forward(100)
+        self.forward(70)
         self.right(50)
-        self.forward(65)
+        self.forward(35)
         self.right(130)
-        self.forward(165)
+        self.forward(70)
 
     }
 

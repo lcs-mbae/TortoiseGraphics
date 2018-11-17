@@ -33,5 +33,16 @@ canvas.drawing { turtle in
         }
         turtle.right(36)
     }
+    turtle.penUp()
+    turtle.right(180)
+    turtle.forward(200)
+    turtle.penDown()
+    for _ in 1...10{
+        for _ in 1...10{
+            turtle.trapezoid()
+            turtle.right(36)
+        }
+    }
+    
     
 }
