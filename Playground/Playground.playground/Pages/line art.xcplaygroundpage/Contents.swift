@@ -43,6 +43,23 @@ canvas.drawing { turtle in
             turtle.right(36)
         }
     }
+    turtle.penUp()
+    turtle.right(130)
+    turtle.forward(60)
+    turtle.curve(withsides: 50, withsize: 10, drawsides: 10)
+    turtle.curve(withsides: -50, withsize: 10, drawsides: 10)
+    turtle.penUp()
+    turtle.right(150)
+    turtle.forward(140)
+    turtle.penDown()
+    turtle.curve(withsides: 50, withsize: 10, drawsides: 10)
+    turtle.curve(withsides: -50, withsize: 10, drawsides: 10)
+    turtle.left(155)
+    turtle.penUp()
+    turtle.forward(50)
+    turtle.right(20)
+    turtle.penDown()
+    
     
     
 }
