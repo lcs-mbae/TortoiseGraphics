@@ -54,12 +54,14 @@ canvas.drawing { turtle in
     turtle.penDown()
     turtle.curve(withsides: 50, withsize: 10, drawsides: 10)
     turtle.curve(withsides: -50, withsize: 10, drawsides: 10)
-    turtle.left(155)
+    turtle.left(150)
     turtle.penUp()
     turtle.forward(50)
-    turtle.right(20)
+    turtle.right(40)
     turtle.penDown()
-    
+    turtle.curve(withsides: 50, withsize: 10, drawsides: 10)
+    turtle.right(100)
+    turtle.curve(withsides:50, withsize: 10, drawsides: 10)
     
     
 }
