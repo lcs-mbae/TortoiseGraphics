@@ -184,5 +184,26 @@ public extension Tortoise {
         self.right(120)
         self.forward(size)
     }
+    func arc(radius: Double, angle: Int) {
+
+        // Source: https://bit.ly/2K9JWbz
+        let arcLength = 2 * Double.pi * radius * Double(abs(angle)) / 360
+        let segments = Int(arcLength / 4) + 1
+        let stepLength = arcLength / Double(segments)
+        let stepAngle = Double(angle) / Double(segments)
+
+        // Making a slight left turn before starting reduces the error
+        // caused by the linear approximation of the arc
+        self.left(stepAngle / 2)
+        polyline(segmentCount: segments, length: stepLength, angle: stepAngle)
+        self.right(stepAngle / 2)
+    }
+
+    func polyline(segmentCount segments: Int, length: Double, angle: Double) {
+        for _ in 1...segments {
+            self.forward(length)
+            self.left(angle)
+        }
+    }
 
 }

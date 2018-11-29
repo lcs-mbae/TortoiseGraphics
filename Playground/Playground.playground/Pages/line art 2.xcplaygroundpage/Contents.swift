@@ -60,7 +60,7 @@ canvas.drawing { turtle in
     turtle.right(40)
     turtle.penDown()
     turtle.curve(withsides: 50, withsize: 10, drawsides: 10)
-    turtle.right(100)
+    turtle.right(1 00)
     turtle.curve(withsides:50, withsize: 10, drawsides: 10)
     
     
