@@ -11,5 +11,7 @@
         <page name='Draw my name'/>
         <page name='line art 2'/>
         <page name='Function'/>
+        <page name='Line Art 3'/>
+        <page name='Assignment'/>
     </pages>
 </playground>

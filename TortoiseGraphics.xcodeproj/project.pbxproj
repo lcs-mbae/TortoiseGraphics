@@ -102,6 +102,7 @@
 		2E6CD9E421B0401A00C8EF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E6CD9E521B0401A00C8EF1A /* DrawFast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrawFast.entitlements; sourceTree = "<group>"; };
 		2E6CD9E921B0407500C8EF1A /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		2E83803821C9DDE90053E6C9 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = Playground/Playground.playground; sourceTree = "<group>"; };
 		OBJ_53 /* TortoiseGraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TortoiseGraphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_54 /* TortoiseGraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = TortoiseGraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -187,6 +188,7 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				2E83803821C9DDE90053E6C9 /* Playground.playground */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				1456315C1FE4806400B3B2A9 /* Playground */,
